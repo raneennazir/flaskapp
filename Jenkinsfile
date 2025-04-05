@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code from repository'
-                // git 'https://github.com/raneennazir/docker_demo.git'  // Modify with your repo URL
+                // git 'https://github.com/raneennazir/flaskapp.git'  // Modify with your repo URL
             }
         }
 
